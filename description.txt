@@ -1,0 +1,36 @@
+This project is a Command-Line Interface (CLI) Employee Management System built using Node.js. The application allows users to manage a list of employees in memory using arrays, without the need for any external database.
+Add Employee – Enter employee name and ID, then store it in an array.
+
+List Employees – Display all the employees stored in memory.
+
+Remove Employee – Delete an employee by providing their ID.
+
+Exit – Quit the application.
+It uses Node.js readline module to handle user input from the terminal and demonstrates the fundamentals of array operations, CRUD logic, and CLI-based applications.
+
+
+
+How It Works:
+
+The program starts by displaying a menu in the terminal.
+
+The user selects an option (1–4).
+
+Based on the choice:
+
+Add → Prompts for employee details and pushes them into an array.
+
+List → Iterates over the array and prints all employees.
+
+Remove → Finds an employee by ID and removes them using array methods.
+
+Exit → Gracefully ends the session.
+
+
+
+Learning Outcomes:
+How to set up and run a Node.js application in VS Code.
+How to use the readline module for interactive CLI input.
+How to perform basic array operations (add, list, remove).
+How to implement a simple menu-driven program in Node.js.
+How to use Git & GitHub to version control and publish a project.
